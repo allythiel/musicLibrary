@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import NavBar from './NavigationBar/navigationBar';
 
 class App extends Component {
     state = {  }
     render() {
         return (
-            <h1>React App Component Here</h1>
+            <div className="container-fluid">
+                <NavBar />
+            </div>
         )
     }
 }
