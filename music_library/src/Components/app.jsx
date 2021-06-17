@@ -3,7 +3,7 @@ import NavBar from './NavigationBar/navigationBar';
 import axios from 'axios';
 
 class App extends Component {
-    construtor(props){
+    constructor(props){
         super(props);
         this.state={musicArray: []}
     }
