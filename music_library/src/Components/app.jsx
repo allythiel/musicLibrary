@@ -8,8 +8,14 @@ class App extends Component {
         this.state={musicArray: []}
     }
     componentDidMount(){
-        let result = axios.get("http://www.devcodecampmusiclibrary.com/api/music");
-        this.setState({musicArray: result.data});
+        this.getAllSongs();
+    }
+
+    async getAllSongs(){
+        let result = await axios.get("http://www.devcodecampmusiclibrary.com/api/music");
+        this.setState({
+            musicArray: result.data
+        });
     }
 
     render() {
