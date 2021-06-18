@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavBar from './NavigationBar/navigationBar';
 import axios from 'axios';
 import MusicTable from './MusicTable/musicTable';
+import Footer from './Footer/footer'
 
 class App extends Component {
     constructor(props){
@@ -27,6 +28,7 @@ class App extends Component {
             <div className="container-fluid">
                 <NavBar />
                 <MusicTable musicArray={this.state.musicArray} />
+                <Footer />
             </div>
         );
     }
