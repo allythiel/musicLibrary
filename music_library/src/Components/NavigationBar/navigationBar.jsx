@@ -1,17 +1,25 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css'
+import Navbar from 'react-bootstrap/Navbar';
+import Form from 'react-bootstrap/Form';
+import FormControl from 'react-bootstrap/FormControl';
+import Button from 'react-bootstrap/Button';
+import Nav from 'react-bootstrap/Nav';
+
 
 function NavBar(props) {
     return(
-        <div className="row row-spacer">
-            <div className="col-md-12" style={{padding: 0}}>
-                <div>
-                    <h1>Music Library</h1>
-                </div>
-            </div>
-        </div>
-    );
-}
+        <>
+        <Navbar bg="dark" variant="dark">
+            <Navbar.Brand href="#home">Music Library</Navbar.Brand>
+            <Nav className="mr-auto">
+            </Nav>
+            <Form inline>
+            <FormControl type="text" placeholder="Search" className="mr-sm-1" /> 
+            <Button variant="outline-primary">Go!</Button>
+            </Form>
+        </Navbar>
+        </>
+    )};
 
 export default NavBar;
 
