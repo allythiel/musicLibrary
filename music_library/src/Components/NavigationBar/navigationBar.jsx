@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css'
 
 function NavBar(props) {
     return(
@@ -13,3 +14,4 @@ function NavBar(props) {
 }
 
 export default NavBar;
+
