@@ -1,16 +1,16 @@
 
 import React from 'react';
+import './searchBar.css';
 
 function SearchBar (props) {
    
 
 
         return (
-            <div>
+            <div1>
                 <hr />
                 <center>
                     <h3>Search For Music!</h3>
-                </center>
                 <form>
                     <div className="row col-align">
                         <div className="col-md-4">
@@ -20,7 +20,8 @@ function SearchBar (props) {
                         </div>
                     </div>
                 </form>
-            </div>
+                </center>
+            </div1>
         );
     }
 
