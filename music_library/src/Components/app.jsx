@@ -10,7 +10,7 @@ class App extends Component {
         super(props);
         this.state= { 
             musicArray: [],
-            filter:""};
+            filteredMusic:""};
     }
 
     componentDidMount(){
@@ -32,10 +32,9 @@ class App extends Component {
     render() {
         console.log(this.state.musicArray);
         // filterMusic(){
-        //     let musicSearch = musicArray.filter(this.handleSearch) {
-        //         return musicSearch.includes(this.handleSearch)
+        //     musicSearch = musicArray.filter(
+        //     }
 
-        
         // }
         //filter right here
         //array.filter(1. make sure you convert to lowercase 2. use .includes)

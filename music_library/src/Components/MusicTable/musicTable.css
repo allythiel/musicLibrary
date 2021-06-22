@@ -1,9 +1,15 @@
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 5px;
   }
 
 table {
     margin-left: auto;
     margin-right: auto;
+    color:darkblue;
+    background:lightgray;
+  }
+
+  th{
+    text-align: center;
   }
