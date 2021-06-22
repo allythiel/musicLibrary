@@ -1,4 +1,5 @@
 import React from 'react';
+import './musicTable.css';
 
 const MusicTable = ({ musicArray }) => {
     return (
